@@ -53,7 +53,9 @@ Designed for a **single user**, this app allows seamless note-taking across devi
 
 ```
 📁 project/
- ├── index.html   # Full application (UI + logic)
+ ├── index.html  
+ ├── firebase.js   
+ ├── script.js  
  └── README.md    # Project documentation
 ```
 

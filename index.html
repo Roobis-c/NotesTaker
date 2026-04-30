@@ -454,6 +454,99 @@ body.focus-mode::after {
   transition: all var(--transition);
 }
 .btn-confirm:hover { background: var(--accent2); border-color: var(--accent2); }
+
+   @media (max-width: 768px) {
+
+  /* Header stack */
+  .home-header-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
+  .search-wrap {
+    order: 3;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .sort-select {
+    order: 2;
+    flex: 1;
+  }
+
+  .btn-primary {
+    order: 4;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-icon {
+    order: 1;
+  }
+
+  /* Stats */
+  .stats-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* Notes grid */
+  .notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Toolbar */
+  .note-toolbar-inner {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .toolbar-left,
+  .toolbar-right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .toolbar-right {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .btn-sm {
+    flex: 1;
+    justify-content: center;
+  }
+
+  /* Format bar scroll */
+  .format-bar-inner {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .format-bar-inner::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Note body */
+  .note-body {
+    padding: 20px 16px 60px;
+  }
+
+  #noteTitle {
+    font-size: 1.6rem;
+  }
+
+  #noteContentRich {
+    font-size: 0.95rem;
+  }
+}
 </style>
 </head>
 <body>

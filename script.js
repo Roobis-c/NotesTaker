@@ -494,7 +494,7 @@ async function exportImage() {
     .join("");
 
   exportDiv.innerHTML = `
-    <div style="font-family:'Playfair Display',serif;font-size:0.7rem;color:${tagFg};letter-spacing:0.1em;margin-bottom:16px;text-transform:uppercase">Folio</div>
+    <div style="font-family:'Playfair Display',serif;font-size:0.7rem;color:${tagFg};letter-spacing:0.1em;margin-bottom:16px;text-transform:uppercase">Roobis Notes</div>
     <h1 style="font-family:'Playfair Display',serif;font-size:2.2rem;margin-bottom:12px;line-height:1.2;color:${fg}">${escHtml(note.title || "Untitled")}</h1>
     <div style="font-size:0.72rem;color:${fgMuted};font-family:'DM Mono',monospace;margin-bottom:${tagsHtml ? "12px" : "24px"}">${formatDateFull(note.createdAt)}</div>
     ${tagsHtml ? `<div style="margin-bottom:24px">${tagsHtml}</div>` : ""}

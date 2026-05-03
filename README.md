@@ -66,8 +66,3 @@ Designed for a **single user**, this app allows seamless note-taking across devi
 
 
 
-If you want, I can also:
-
-* Make this into a **GitHub-ready README with badges**
-* Add **screenshots section**
-* Or create a **project demo description for resume** 🚀
